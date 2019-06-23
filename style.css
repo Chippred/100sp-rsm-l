@@ -1,0 +1,78 @@
+body{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+     background-image: linear-gradient(skyblue, lightblue);
+}
+.Card{
+    font-size: 60px;
+    position: fixed;
+    height: 600px;
+    width: 350px;
+    box-shadow: 1px 1px 20px 1px gray;
+    text-align: center;
+    border-style: double;
+    border-width: 20px;
+    border-color: gray;
+    background-color: white; 
+}
+.Card:hover{
+    z-index: 4;
+    width: 380;
+    height: 630;
+}
+#card1{
+    right: -40px;
+    bottom: -60px;
+    z-index: 1;
+}
+#card2{
+    transform: rotate(-25deg);
+    right: 20px;
+    bottom: -40px;
+    z-index: 2;
+}
+#card3{
+    transform: rotate(-45deg);
+    right: 200px;
+    bottom: -100px;
+    z-index: 3;
+}
+.logo{
+    color: white;
+    font-size:40px;
+    left: 20px;
+    position: fixed;
+}
+.cardStyle{
+    width: 500px;
+    height: 250px;
+    box-shadow: 1px 1px 20px 1px gray;
+    text-align: center;
+    border-style: double;
+    border-width: 20px;
+    border-color: gray;
+    left: 0px;
+    right: 0px;
+    top: 400px;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+}
+#p1{
+    top: 90px;
+    bottom: 0px;
+    margin: auto;
+    position: relative;
+}
+.Header{
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    top: 200px;
+}
+.smlrCrdTxt{
+    font-size: 40px;
+}
